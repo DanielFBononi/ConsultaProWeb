@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro/Login - Usuário</title>
+    <link rel="stylesheet" href="cadastro.css">
+</head>
+<body>
+    <div class="fieldmain login">
+        <h1>Seja bem vindo(a)!</h1>
+        <h2>Cadastro - Médico</h2>
+    <form method="post">
+        <div class="form">
+            <label for="CRM">CRM:</label><br>
+            <ion-icon name="clipboard-outline"></ion-icon>
+            <input type="text" id="CRM" name="CRM" required>
+        </div>
+        <div class="form">
+            <label for="email">Especialidade:</label><br>
+            <ion-icon name="mail-outline"></ion-icon>
+            <input type="text" id="consul" name="consul" required>
+        </div>
+        <div class="form">
+            <label for="Name">Nome:</label><br>
+            <ion-icon name="person-circle-outline"></ion-icon>
+            <input type="text" id="Name" name="Name" required>
+        </div>
+        <div class="form">
+            <label for="password">Senha:</label><br>
+            <ion-icon name="lock-closed-outline"></ion-icon>
+            <input type="password" id="senha" name="senha" required>
+        </div>
+        <div class="form">
+            <label for="password">Confirmar senha:</label><br>
+            <ion-icon name="lock-closed-outline"></ion-icon>
+            <input type="password" id="confirmarSenha" name="confirmarSenha" required>
+        </div>
+        <div class="form"> 
+        <label>Consultório:</label><br>
+        <ion-icon name="business-outline"></ion-icon>
+        <input type="text" id="consul" name="consul" required> 
+        </div>
+        <fieldset class="field">
+        <div class="form">
+            <label for="Name">Rua/Avenida:</label><br>
+            <input type="text" id="Endereço" name="Endereço" required>
+        </div>
+        <div class="form">
+            <label for="Name">Nº:</label><br>
+            <input type="text" id="numero" name="numero" required>
+        </div>
+        <div class="form">
+            <label for="Name">CEP:</label><br>
+            <input type="text" id="cep" name="cep" required>
+        </div>
+        <div class="form">
+            <label for="Name">Bairro:</label><br>
+            <input type="text" id="bairro" name="bairro" required>
+        </div>
+        </fieldset>
+        <div class="form">
+            <label for="password">Convênio:</label><br>
+            <ion-icon name="medkit-outline"></ion-icon>
+            <input type="text" id="convenio" name="convenio" required>
+        </div>
+        <div>
+        <button class="btngustavo" type="submit">Cadastrar</button>
+        </div>
+        <div class="btnlogin">
+            <a href="loginMed.html">Já possui uma conta?</a><br>
+            <a href="home.html">Volte para o início</a>
+        </div>
+        </div>
+    </div>
+    </form>
+    <script  type = "module"  src = "https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script  nomodule  src = "https://unpkg .com/ionicons@7.1.0/dist/ionicons/ionicons.js" ></script>
+</body>
+</html>

@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agendamento de Consulta</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <body>
+
+        <header>
+            <div class="botaol"><a href="loginUser.html" class="btngustavo">Login</a></div>
+            <div class="logo ribamar">
+    
+                <img src="fotos/logo.jpeg" alt="Logo" class="logo">
+            </div>
+    
+            <nav>
+                <a href="home.html" class="btngustavo">Home</a>
+                <a href="agendamento.html" class="btngustavo">Agendamento</a>
+                <a href="sobre.html" class="btngustavo">Sobre</a>
+            </nav>
+          </header>
+
+<div class="card">
+    <img src="fotos/medicoia.jpg" alt="Foto do Médico" class="profile-image imagem">
+    <div class="details">
+        <h2>Dr. Victor Mendes</h2>
+        <p>Endereço: Endereço do Consultório</p>
+        <p>Convênio: Convênio Atendido</p>
+        <p>Preço da Consulta: R$ ---,--</p>
+    </div>
+    <div class="btnagenda" onclick="openModal()">
+        <button class="botaoA">Agendamento</button>
+    </div>
+</div>
+
+<div class="card">
+    <img src="fotos/medicoia2.jpg" alt="Foto do Médico" class="profile-image imagem">
+    <div class="details">
+        <h2>Dr. Leonardo Oliveira</h2>
+        <p>Endereço: Endereço do Consultório</p>
+        <p>Convênio: Convênio Atendido</p>
+        <p>Preço da Consulta: R$ ---,--</p>
+    </div>
+    <div class="btnagenda" onclick="openModal()">
+        <button class="botaoA">Agendamento</button>
+        </div>
+</div>
+
+<div class="card">
+    <img src="fotos/medicoia3.jpg" alt="Foto do Médico" class="profile-image imagem">
+    <div class="details">
+        <h2>Dr. Rafael Silva</h2>
+        <p>Endereço: Endereço do Consultório</p>
+        <p>Convênio: Convênio Atendido</p>
+        <p>Preço da Consulta: R$ ---,--</p>
+    </div>
+    <div class="btnagenda" onclick="openModal()">
+        <button class="botaoA">Agendamento</button>
+        </div>
+</div>
+
+<div class="card">
+    <img src="fotos/medicaia.jpg" alt="Foto do Médico" class="profile-image imagem">
+    <div class="details">
+        <h2>Dra. Isabella Martins</h2>
+        <p>Endereço: Endereço do Consultório</p>
+        <p>Convênio: Convênio Atendido</p>
+        <p>Preço da Consulta: R$ ---,--</p>
+    </div>
+    <div class="btnagenda" onclick="openModal()">
+    <button class="botaoA">Agendamento</button>
+    </div>
+</div>
+
+<div class="card">
+    <img src="fotos/medicoia4.jpg" alt="Foto do Médico" class="profile-image imagem">
+    <div class="details">
+        <h2>Dr. Lucas Santos</h2>
+        <p>Endereço: Endereço do Consultório</p>
+        <p>Convênio: Convênio Atendido</p>
+        <p>Preço da Consulta: R$ ---,--</p>
+    </div>
+    <div class="btnagenda" onclick="openModal()">
+        <button class="botaoA">Agendamento</button>
+        </div>
+</div>
+
+
+</div>
+<footer>
+
+    <p>&copy; 2023 Consulta Pro Web. Todos os direitos reservados.</p>
+
+</footer>
+<div class="modal" id="myModal">
+    <div class="modal-content">
+        <span class="close" id="closeModal">&times;</span>
+        <div class="agenda">
+            <label for="Name">Nome completo</label><br>
+            <input type="text" id="Name" name="Name" required><br>
+            <label for="email">Email</label><br>
+            <input type="email" id="email" name="email" required><br>
+            <label for="password">Telefone</label><br>
+            <input type="tel" id="Tel" name="Tel" placeholder="(99)99999-9999" required><br>
+            <label for="appointmentDate">Escolha a data:</label><br>
+            <input type="date" id="appointmentDate" name="appointmentDate" required><br>
+            <button class="botaoA">Enviar</button>
+        </div>
+    </div>
+</div>
+
+<script src="cpw.js"></script>
+</body>
+</html>

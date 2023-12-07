@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro/Login - Usuário</title>
+    <link rel="stylesheet" href="cadastro.css">
+</head>
+<body>
+    <div class="cont">
+    
+    <div class="fieldmain login">
+        <h1>Seja bem vindo(a)!</h1>
+        <h2>Cadastro</h2>
+    <form method="post">
+        <div class="form">
+            <label for="Name">Nome:</label><br>
+            <ion-icon name="person-circle-outline"></ion-icon>
+            <input type="text" id="Name" name="Name" required>
+        </div>
+        <div class="form">
+            <label for="dataNasc">Data de nascimento:</label><br>
+            <ion-icon name="calendar-outline"></ion-icon>
+            <input type="date" id="dataNasc" name="Datanasc" required >
+        </div>
+        <div class="form">
+            <label for="Convenio">Convênio:</label>
+            <ion-icon name="medkit-outline"></ion-icon>
+            <input type="checkbox" id="Convenio" name="Convenio" required>
+        </div>
+        <div class="form">
+            <label for="email">Email:</label><br>
+            <ion-icon name="mail-outline"></ion-icon>
+            <input type="email" id="email" name="email" required >
+        </div>
+        <div class="form">
+            <label for="password">Telefone:</label><br>
+            <ion-icon name="call-outline"></ion-icon>
+            <input type="tel" id="Tel" name="Tel" placeholder="(99)99999-9999" required>
+        </div>
+        <div class="form">
+            <label for="password">Senha:</label><br>
+            <ion-icon name="lock-closed-outline"></ion-icon>
+            <input type="password" id="senha" name="senha" required>
+        </div>
+        <div class="form">
+            <label for="password">Confirmar senha:</label><br>
+            <ion-icon name="lock-closed-outline"></ion-icon>
+            <input type="password" id="confirmarSenha" name="confirmarSenha" required>
+        </div>
+        
+        <div>
+        <button type="submit" class="btngustavo">Cadastrar</button>
+        </div>
+        <div class="btnlogin">
+            <a href="loginUser.html">Já possui uma conta?</a><br>
+            <a href="home.html">Volte para o início</a>
+
+        </div>
+        </div>
+    </div>
+    </form>
+    <script  type = "module"  src = "https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script  nomodule  src = "https://unpkg .com/ionicons@7.1.0/dist/ionicons/ionicons.js" ></script>
+</body>
+</html>
